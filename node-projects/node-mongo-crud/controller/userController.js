@@ -120,7 +120,7 @@ exports.updateUser = function (req, res) {
                 msg: "Something went wrong"
             })
         } else {
-           //user.find
+            //user.find
             res.json({
                 status: 200,
                 data: req.body,
